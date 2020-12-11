@@ -23,16 +23,14 @@
     "react-native": "0.63.2",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-htmlview": "^0.16.0",
-    "react-native-paper": "^4.1.0",
     "react-native-progress-webview": "^1.2.0",
     "react-native-reanimated": "^1.13.0",
     "react-native-safe-area-context": "^3.1.7",
     "react-native-screens": "^2.11.0",
     "react-native-share": "^4.0.0",
-    "react-native-swipe-list-view": "^3.2.4",
     "react-native-tab-view": "^2.15.1",
     "react-native-vector-icons": "^7.1.0",
-    "react-native-webview": "^10.9.0",
+    "react-native-webview": "^11.0.0",
     "rn-viewpager": "^1.2.9"
   },
   "devDependencies": {

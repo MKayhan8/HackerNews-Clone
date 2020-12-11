@@ -167,24 +167,15 @@ function AboutScreen({navigation}) {
 
 }
 
-/*
 
-React-Native Splash Screen Control Time,
- React Hooks (hide after a timeout):
- const [hideSplash, setHideSplash] = React. useState(false); React. useEffect(() => { setTimeout(() => { setHideSplash(true); }, 1000);
- // amount of time the splash is shown from the time component is rendered }, []);
-  React. The react-native-splash-screen has a pretty good implementation for this. Once you install and link the native dependencies, you can control when you show the splash screen in your native code: Android:
-
-
- */
 const CustomDrawerContent = (props) => {
     return(
         <View style={{flex:1,backgroundColor:'#FFA827'}}>
             <DrawerContentScrollView {...props} style={{flex:1}}>
                 <View style={{flex:2,justifyContent:'center',alignItems:'center',marginVertical:30}}>
-                    <Icon name="logo-javascript" size={50} color="#000" />
-                    <Text style={{fontStyle:'normal',color:'#000',fontSize:30}}>Daliyut</Text>
-                    <Text style={{fontStyle:'italic',color:'#000'}}>Güzel olay</Text>
+
+                    <Text style={{fontStyle:'normal',color:'#000',fontSize:25}}>Hacker News Clone</Text>
+                    <Text style={{fontStyle:'italic',color:'#000'}}>on development process</Text>
                 </View>
                 <View style={{borderBottomColor: 'black', borderBottomWidth: 0.4}}/>
                <View style={{flex:8,justifyContent:'center',flexDirection:'column'}}>
@@ -222,9 +213,8 @@ const App = () => {
     return splash ?
         (<View style={styles.container}>
             <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#FFA827" translucent = {true}/>
-            <Icon name="logo-javascript" size={40} color="#000" />
-            <Text style={{fontStyle:'normal',color:'#000',fontSize:30}}>HackerNews</Text>
-            <Text style={{fontStyle:'italic',color:'#000'}}>Connecting People</Text>
+            <Text style={{fontStyle:'normal',color:'#000',fontSize:30}}>Hacker News Clone</Text>
+            <Text style={{fontStyle:'italic',color:'#000'}}>on development process</Text>
         </View>) : (
             <NavigationContainer>
                 <Drawer.Navigator  initialRouteName={"Top Stories"}   drawerStyle={{ width: initRender ? null : "80%" }} drawerContent={props =><CustomDrawerContent {...props}/>}>
