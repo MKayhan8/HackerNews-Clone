@@ -4,7 +4,7 @@ HackerNews mobile app clone made by React Native 0.63.2
 # About Project
 This is my first React Native app, this project helps me to understand fundamentals of RN and improve my skills in software development journey. 
 
-# Librarires and Tools 
+# Libraries and Tools 
 * [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 * [React Navigation](https://reactnavigation.org/)
 * [HackerNews API](https://github.com/HackerNews/API)
